@@ -12,6 +12,8 @@ class Login(unittest.TestCase):
         global driver
         options = Options()
         options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
         options.binary_location = '/usr/bin/google-chrome'
         driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
         driver.get("https://www.gmail.com")
