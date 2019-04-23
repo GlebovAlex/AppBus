@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b68930e6-db0a-4a4c-855a-4a20c25eaf12" name="Default Changelist" comment="" />
+    <list default="true" id="b68930e6-db0a-4a4c-855a-4a20c25eaf12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test02.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +12,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#19#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,11 +45,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Practice" />
         <option value="$PROJECT_DIR$/Login.py" />
+        <option value="$PROJECT_DIR$/Test02.py" />
       </list>
     </option>
   </component>
@@ -50,18 +68,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="appBusWebportalTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appBusWebportalTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppBus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,9 +168,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990991" visible="true" weight="0.2553517" />
-      <window_info id="Structure" order="1" sideWeight="0.5009009" side_tool="true" visible="true" weight="0.2553517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.2553517" />
+      <window_info id="Structure" order="1" sideWeight="0.5027027" side_tool="true" visible="true" weight="0.2553517" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -174,10 +193,20 @@
     <entry file="file://$PROJECT_DIR$/Practice" />
     <entry file="file://$PROJECT_DIR$/Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#19#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
