@@ -40,6 +40,7 @@ class Registration(unittest.TestCase):
         select_city.select_by_visible_text("San Jose, Santa Clara County")
         driver.find_element_by_id("i-e-paypal").send_keys("u3.qallab@gmail.com")
         elementsubmit = driver.find_element_by_xpath("//input[@name='register']")
+        elementsubmit.send_keys(Keys.END)
         elementsubmit.click()
         element = driver.find_element_by_id('acceptterms')
         element.send_keys(Keys.END)
