@@ -43,9 +43,11 @@ class Registration(unittest.TestCase):
         elementsubmit = driver.find_element_by_xpath('//input[@type="submit"]')
         actions = ActionChains(driver)
         actions.move_to_element(elementsubmit).click().perform()
-
-        element = driver.find_element_by_id('acceptterms')
-        element.send_keys(Keys.END)
+        element_accept = driver.find_element_by_id('acceptterms')
+        actions_accept = ActionChains(driver)
+        actions_accept.move_to_element(element_accept).perform()
+        element_accept.send_keys(Keys.END)
+        #element_accept.click()
         time.sleep(4)
         driver.find_element_by_id("acceptterms").click()
         driver.find_element_by_xpath(

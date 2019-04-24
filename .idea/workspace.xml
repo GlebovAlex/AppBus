@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="259">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
@@ -115,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for CJ-web-reg-Chrome.Registration">
+  <component name="RunManager" selected="Python tests.Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration">
     <configuration name="Login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appBusWebportalTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for CJ-web-reg-Chrome.Registration" />
         <item itemvalue="Python tests.Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" />
+        <item itemvalue="Python tests.Unittests for CJ-web-reg-Chrome.Registration" />
         <item itemvalue="Python.Login" />
         <item itemvalue="Python.Practice" />
       </list>
@@ -209,21 +209,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.23 at 19h 34m 02s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 09h 59m 31s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 10h 07m 53s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 12h 58m 51s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 13h 37m 42s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 13h 39m 37s.xml">
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
     </history-entry>
@@ -236,6 +221,24 @@
     <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 14h 09m 54s.xml">
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 14h 28m 19s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 29m 55s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 46m 18s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 50m 30s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 52m 31s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 56m 55s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -246,7 +249,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3617021" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44189852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="259">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>
