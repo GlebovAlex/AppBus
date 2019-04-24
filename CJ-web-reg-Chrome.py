@@ -49,7 +49,10 @@ class Registration(unittest.TestCase):
         element_accept.send_keys(Keys.END)
         #element_accept.click()
         time.sleep(4)
-        driver.find_element_by_id("acceptterms").click()
+        element_acc=driver.find_element_by_id("acceptterms")
+        actions_acc=ActionChains(driver)
+        actions_acc.move_to_element(element_acc).perform()
+        element_acc.click()
         driver.find_element_by_xpath(
             "(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::span[1]").click()
         time.sleep(4)
