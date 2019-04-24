@@ -15,6 +15,7 @@ class Registration(unittest.TestCase):
         options.add_argument('--disable-dev-shm-usage')
         options.binary_location = '/usr/bin/google-chrome'
         driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
+        #driver = webdriver.Chrome(executable_path='chromedriver.exe')
         driver.implicitly_wait(30)
         driver.maximize_window()
         driver.get("http://liveinews.com/login/")
@@ -51,8 +52,7 @@ class Registration(unittest.TestCase):
         time.sleep(4)
         element_acc=driver.find_element_by_id("acceptterms")
         actions_acc=ActionChains(driver)
-        actions_acc.move_to_element(element_acc).perform()
-        element_acc.click()
+        actions_acc.move_to_element(element_acc).click().perform()
         driver.find_element_by_xpath(
             "(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::span[1]").click()
         time.sleep(4)
