@@ -4,6 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 class Registration(unittest.TestCase):
     def setUp(self):
@@ -39,9 +40,10 @@ class Registration(unittest.TestCase):
         select_city = Select(driver.find_element_by_id("cityId"))
         select_city.select_by_visible_text("San Jose, Santa Clara County")
         driver.find_element_by_id("i-e-paypal").send_keys("u3.qallab@gmail.com")
-        elementsubmit = driver.find_element_by_xpath("//input[@name='register']")
-        elementsubmit.send_keys(Keys.END)
-        elementsubmit.click()
+        elementsubmit = driver.find_element_by_xpath('//input[@type="submit"]')
+        actions = ActionChains(driver)
+        actions.move_to_element(elementsubmit).click().perform()
+
         element = driver.find_element_by_id('acceptterms')
         element.send_keys(Keys.END)
         time.sleep(4)

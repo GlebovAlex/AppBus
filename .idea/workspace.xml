@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68930e6-db0a-4a4c-855a-4a20c25eaf12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ-web-reg-Chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ-web-reg-Chrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+            <state relative-caret-position="308">
+              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
@@ -172,9 +172,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="appBusWebportalTesting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CJ-web-reg-Chrome.Registration.test_web_registeration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for CJ-web-reg-Chrome.Registration" />
+        <item itemvalue="Python tests.Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" />
         <item itemvalue="Python.Login" />
         <item itemvalue="Python.Practice" />
       </list>
@@ -201,6 +216,24 @@
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 10h 07m 53s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 12h 58m 51s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 13h 37m 42s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 13h 39m 37s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 13h 41m 31s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 13h 43m 20s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 14h 09m 54s.xml">
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
     </history-entry>
   </component>
@@ -287,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+        <state relative-caret-position="308">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>
