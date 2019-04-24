@@ -13,7 +13,7 @@ class Registration(unittest.TestCase):
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.binary_location = '/usr/bin/google-chrome'
-        driver = webdriver.Chrome(executable_path='chromedriver.exe')
+        driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
         driver.implicitly_wait(30)
         driver.maximize_window()
         driver.get("http://liveinews.com/login/")
