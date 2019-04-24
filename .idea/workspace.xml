@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b68930e6-db0a-4a4c-855a-4a20c25eaf12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CJ-web-login.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ-web-login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ-web-reg-Chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ-web-reg-Chrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfile.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="b68930e6-db0a-4a4c-855a-4a20c25eaf12" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="18" />
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -29,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-483">
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -41,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/CJ-web-login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
@@ -236,13 +229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -256,16 +242,23 @@
     <entry file="file://$PROJECT_DIR$/CJ-web-login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
