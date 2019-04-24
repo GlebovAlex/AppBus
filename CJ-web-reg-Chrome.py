@@ -4,15 +4,15 @@ import time
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-#from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.options import Options
 class Registration(unittest.TestCase):
     def setUp(self):
         global driver
-        #options = Options()
-        #options.headless = True
-        #options.add_argument('--no-sandbox')
-        #options.add_argument('--disable-dev-shm-usage')
-        #options.binary_location = '/usr/bin/google-chrome'
+        options = Options()
+        options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.binary_location = '/usr/bin/google-chrome'
         driver = webdriver.Chrome(executable_path='chromedriver.exe')
         driver.implicitly_wait(30)
         driver.maximize_window()
