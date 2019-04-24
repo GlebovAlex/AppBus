@@ -47,7 +47,7 @@ class Registration(unittest.TestCase):
         driver.find_element_by_xpath(
             "(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::span[1]").click()
         time.sleep(4)
-        driver.find_element_by_name("register").click()
+        driver.find_element_by_xpath("//input[@name='register']").click()
         time.sleep(4)
 
 
