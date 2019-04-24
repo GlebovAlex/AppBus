@@ -4,16 +4,16 @@ import time
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.options import Options
 class Registration(unittest.TestCase):
     def setUp(self):
         global driver
-        options = Options()
-        options.headless = True
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        options.binary_location = '/usr/bin/google-chrome'
-        driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
+        #options = Options()
+        #options.headless = True
+        #options.add_argument('--no-sandbox')
+        #options.add_argument('--disable-dev-shm-usage')
+        #options.binary_location = '/usr/bin/google-chrome'
+        driver = webdriver.Chrome(executable_path='chromedriver.exe')
         driver.implicitly_wait(30)
         driver.maximize_window()
         driver.get("http://liveinews.com/login/")
@@ -39,7 +39,7 @@ class Registration(unittest.TestCase):
         select_city = Select(driver.find_element_by_id("cityId"))
         select_city.select_by_visible_text("San Jose, Santa Clara County")
         driver.find_element_by_id("i-e-paypal").send_keys("u3.qallab@gmail.com")
-        driver.find_element_by_name("register").click()
+        driver.find_element_by_xpath("//input[@name='register']").click()
         element = driver.find_element_by_id('acceptterms')
         element.send_keys(Keys.END)
         time.sleep(4)
