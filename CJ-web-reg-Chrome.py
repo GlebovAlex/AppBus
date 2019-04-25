@@ -64,8 +64,8 @@ class Registration(unittest.TestCase):
         time.sleep(4)
 
 
-def tearDown(self):
-       self.driver.quit()
+        def tearDown(self):
+            self.driver.quit()
 
 if __name__ == '__main__':
     unittest.main()
