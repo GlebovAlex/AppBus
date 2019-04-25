@@ -2,13 +2,20 @@
 import unittest
 import time
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 class Login(unittest.TestCase):
 
     def setUp(self):
         # create a new Chrome session
         global driver
-        driver = webdriver.Chrome(executable_path="chromedriver")
+		options = Options()
+        options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.binary_location = '/usr/bin/google-chrome'
+        driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
+        #driver = webdriver.Chrome(executable_path="chromedriver")
         # navigate to the application home page
         driver.get("http://liveinews.com/login/")
 
