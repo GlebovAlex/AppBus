@@ -9,7 +9,7 @@ class Login(unittest.TestCase):
     def setUp(self):
         # create a new Chrome session
         global driver
-		options = Options()
+        options = Options()
         options.headless = True
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
