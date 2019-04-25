@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="187">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
@@ -209,12 +209,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 29m 55s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 46m 18s.xml">
-      <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration_test_web_registeration - 2019.04.24 at 14h 50m 30s.xml">
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
     </history-entry>
@@ -237,6 +231,12 @@
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration.test_web_registeration" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 15h 58m 41s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 17h 52m 16s.xml">
+      <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CJ-web-reg-Chrome_Registration - 2019.04.24 at 17h 53m 12s.xml">
       <configuration name="Unittests for CJ-web-reg-Chrome.Registration" configurationId="tests" />
     </history-entry>
   </component>
@@ -323,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CJ-web-reg-Chrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="187">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>

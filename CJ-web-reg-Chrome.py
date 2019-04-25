@@ -53,8 +53,10 @@ class Registration(unittest.TestCase):
         element_acc=driver.find_element_by_id("acceptterms")
         actions_acc=ActionChains(driver)
         actions_acc.move_to_element(element_acc).click().perform()
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::span[1]").click()
+        element_term =driver.find_element_by_xpath(
+            "(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::span[1]")
+        actions_term=ActionChains(driver)
+        actions_term.move_to_element(element_term).click().perform()
         time.sleep(4)
         driver.find_element_by_xpath("//input[@name='register']").click()
         time.sleep(4)
