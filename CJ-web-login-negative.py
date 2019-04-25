@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import unittest
 import time
 from selenium import webdriver
